@@ -9,12 +9,14 @@
 .viewParentDiv .imageShowDiv img {
   width: 65vw;
   height: 85vh;
+  margin-left: 100px;
 }
 
 .viewParentDiv .rightSection {
   padding: 16px;
   margin-top: 3em;
   width: 30vw;
+  margin-left: 50px;
 }
 
 .viewParentDiv .rightSection .productDetails :first-child {
@@ -47,4 +49,11 @@
   color: #002f34;
   font-weight: 400;
   padding: 0;
+}
+
+.rightSection{
+  padding: 16px;
+  margin-top: 3em;
+  width: 30vw;
+  margin-left: 50px;
 }

@@ -12,6 +12,23 @@
   font-size: 24px;
   font-weight: bolder;
 }
+ul{
+  list-style: none;
+}
+span{
+  font-size: smaller;
+
+  color: grey;
+}
+.foot{
+  font-size: smaller;
+  color: grey;
+}
+
+li{
+  color: grey;
+  font-size: smaller;
+}
 
 .footerParentDiv .footer {
   display: flex;

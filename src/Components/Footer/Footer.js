@@ -21,7 +21,7 @@ function Footer() {
         </div>
         <div>
           <div className="heading">
-            <p>ABOUT US</p>
+           <p>ABOUT US</p>
           </div>
           <div className="list">
             <ul>
@@ -46,8 +46,8 @@ function Footer() {
         </div>
       </div>
       <div className="footer">
-        <p>Other Countries Pakistan - South Africa - Indonesia</p>
-        <p>Free Classifieds in India. © 2006-2021 OLX</p>
+        <p>Other Countries <br></br> <span>Pakistan - South Africa - Indonesia</span></p>
+        <p className='foot'>Free Classifieds in India. © 2006-2021 OLX</p>
       </div>
     </div>
   );

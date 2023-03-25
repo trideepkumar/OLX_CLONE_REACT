@@ -3,6 +3,7 @@
   padding: 16px 16px 32px;
   background-color: #ebeeef;
   border-radius: 4px;
+  
 }
 
 .heading {
@@ -27,18 +28,19 @@
 
 .moreView .cards {
   white-space: nowrap;
-  overflow-x: scroll;
+  overflow-x:scroll;
   overflow-y: hidden;
 }
 
 .card {
   margin-right: 15px;
   padding: 13px;
-  max-width: 222px;
-  width: 222px;
+  /* max-width: 222px; */
+  width: 312px;
   height: 270px;
   display: inline-block;
   cursor: pointer;
+  border-color: rgb(214, 214, 214);
 }
 
 .card .favorite {
@@ -84,4 +86,8 @@
 .recommendations .heading span {
   font-size: 24px;
   color: #002f34;
+}
+
+.postParentDiv{
+  margin: 40px;
 }

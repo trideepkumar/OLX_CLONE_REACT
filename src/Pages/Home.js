@@ -5,6 +5,7 @@ import Banner from '../Components/Banner/Banner';
 
 import Posts from '../Components/Posts/Posts';
 import Footer from '../Components/Footer/Footer';
+import Base from '../Components/BaseBanner/Banner'
 
 function Home(props) {
   return (
@@ -12,6 +13,7 @@ function Home(props) {
       <Header />
       <Banner />
       <Posts />
+      <Base/>
       <Footer />
     </div>
   );
